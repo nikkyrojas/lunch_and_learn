@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-11-10T15:49:58-07:00">2022-11-10T15:49:58-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-11-10T17:40:15-07:00">2022-11-10T17:40:15-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>43</b> relevant lines,
-    <span class="green"><b>43</b> lines covered</span> and
+    <b>45</b> relevant lines,
+    <span class="green"><b>45</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -71,11 +71,11 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#ebffbb13421aac42cb2aa80846d856fd2e8b1338" class="src_link" title="app/services/country_service.rb">app/services/country_service.rb</a></td>
+            <td class="strong t-file__name"><a href="#877e3b9b17aecb9231d909ec93c4e546e6cb00bb" class="src_link" title="app/services/recipe_service.rb">app/services/recipe_service.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">6</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">8</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -230,9 +230,9 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="ebffbb13421aac42cb2aa80846d856fd2e8b1338">
+        <div class="source_table" id="877e3b9b17aecb9231d909ec93c4e546e6cb00bb">
   <div class="header">
-    <h3>app/services/country_service.rb</h3>
+    <h3>app/services/recipe_service.rb</h3>
     <h4>
       <span class="green">
   100.0%
@@ -244,8 +244,8 @@
     
 
     <div class="t-line-summary">
-      <b>6</b> relevant lines.
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>8</b> relevant lines.
+      <span class="green"><b>8</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -263,7 +263,7 @@
 
             
 
-            <code class="ruby">class CountryService</code>
+            <code class="ruby">class RecipeService</code>
           </li>
         </div>
       
@@ -274,7 +274,7 @@
 
             
 
-            <code class="ruby">  def self.conn</code>
+            <code class="ruby">  def self.get_recipe_by_country(country)</code>
           </li>
         </div>
       
@@ -285,18 +285,18 @@
 
             
 
-            <code class="ruby">    Faraday.new(&quot;https://restcountries.com&quot;)</code>
+            <code class="ruby">    response ||= conn.get(&quot;/api/recipes/v2?type=public&amp;q=#{country}&amp;app_id=#{ENV[&#39;edamam_app_id&#39;]}&amp;app_key=#{ENV[&#39;edamam_recipe_key&#39;]}&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    RecipeService.parse(response)</code>
           </li>
         </div>
       
@@ -307,18 +307,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="6">
+            
             
 
             
 
-            <code class="ruby">  def self.get_countries</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -329,7 +329,7 @@
 
             
 
-            <code class="ruby">    response = conn.get(&quot;/v3.1/all&quot;) </code>
+            <code class="ruby">  def self.conn</code>
           </li>
         </div>
       
@@ -340,7 +340,7 @@
 
             
 
-            <code class="ruby">    parsed = JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">    Faraday.new(&#39;https://api.edamam.com&#39;)</code>
           </li>
         </div>
       
@@ -357,6 +357,50 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.parse(response)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    JSON.parse(response.body, symbolize_names: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
             
             
 
