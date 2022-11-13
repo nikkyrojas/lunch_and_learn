@@ -241,6 +241,52 @@
           null
         ]
       },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/poros/recipe_spec.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          21,
+          21,
+          21,
+          21,
+          null,
+          null
+        ]
+      },
       "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/country_service_spec.rb": {
         "lines": [
           1,
@@ -311,25 +357,8 @@
           null,
           null
         ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/recipe.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          20,
-          20,
-          20,
-          20,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1668305210
+    "timestamp": 1668306220
   }
 }
