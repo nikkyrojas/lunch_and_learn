@@ -26,11 +26,12 @@ RSpec.describe 'Recipe API' do
       end 
     end
     context 'edgacase/sad path' do
-      it 'empty country search param gives random country/recipe', :vcr do 
-        get '/api/v1/recipes?country='
+      it 'if country param is nil return a random country/recipe', :vcr do 
+        get '/api/v1/recipes?'
 
         json_response = JSON.parse(response.body, symbolize_names: true)
         recipe_data = json_response[:data]
+
         expect(recipe_data).to be_an Array
         expect(recipe_data[0]).to be_a Hash
         expect(recipe_data[0][:id]).to eq(nil)
@@ -40,6 +41,15 @@ RSpec.describe 'Recipe API' do
         expect(recipe_data[0][:attributes][:url]).to be_a(String)
         expect(recipe_data[0][:attributes][:country]).to be_a(String)
         expect(recipe_data[0][:attributes][:image]).to be_a(String)
+      end 
+    
+      it 'empty country search param gives empty array', :vcr do 
+        get '/api/v1/recipes?country='
+        json_response = JSON.parse(response.body, symbolize_names: true)
+        recipe_data = json_response[:data]
+
+        expect(recipe_data).to be_an Array
+        expect(recipe_data).to eq([])
       end 
     end
   end
