@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -212,225 +212,20 @@
           1,
           1,
           1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/facades/country_facade_spec.rb": {
-        "lines": [
-
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/facades/recipe_facade_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           null,
           null,
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/facades/recipe_facade.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/facades/tourist_site_facade.rb": {
         "lines": [
           1,
           1,
-          4,
-          80,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/poros/country_spec.rb": {
-        "lines": [
-          null,
-          1,
-          null,
-          1,
-          1,
           1,
           1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/country.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          251,
-          251,
-          251,
-          251,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/poros/recipe_spec.rb": {
-        "lines": [
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/recipe.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          81,
-          81,
-          81,
-          81,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/country_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/services/country_service.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/recipe_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/services/recipe_service.rb": {
-        "lines": [
-          1,
-          1,
-          5,
-          5,
-          null,
-          null,
-          1,
-          5,
-          null,
-          null,
-          1,
-          5,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/tourist_site_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
           null,
           null
         ]
@@ -449,66 +244,24 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/controllers/api/v1/recipes_controller.rb": {
-        "lines": [
-          1,
-          1,
-          4,
-          2,
-          2,
-          2,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/serializers/recipe_serializer.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/tourist_site.rb": {
         "lines": [
           1,
           1,
           null,
-          3,
-          null,
-          60,
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/facades/country_facade.rb": {
-        "lines": [
           1,
           1,
-          1,
-          250,
-          null,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1668444175
+    "timestamp": 1668445592
   }
 }
