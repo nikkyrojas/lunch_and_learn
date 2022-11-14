@@ -228,19 +228,25 @@
           1,
           1,
           null,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
           null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          10,
+          10,
+          10,
+          null,
+          10,
+          10,
+          null,
           null,
           null,
           null,
@@ -254,13 +260,18 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null
@@ -270,10 +281,14 @@
         "lines": [
           1,
           1,
-          1,
-          250,
+          2,
+          500,
+          null,
+          2,
+          null,
           null,
           1,
+          3,
           null,
           null
         ]
@@ -302,13 +317,13 @@
           1,
           1,
           4,
-          61,
+          60,
           null,
           null,
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/facades/tourist_site_facade_spec.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/facades/tourist_sight_facade_spec.rb": {
         "lines": [
           1,
           null,
@@ -330,12 +345,12 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/facades/tourist_site_facade.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/facades/tourist_sight_facade.rb": {
         "lines": [
           1,
           1,
-          1,
-          10,
+          3,
+          30,
           null,
           null,
           null
@@ -378,10 +393,10 @@
           null,
           null,
           1,
-          251,
-          251,
-          251,
-          251,
+          504,
+          504,
+          504,
+          504,
           null,
           null
         ]
@@ -424,15 +439,15 @@
           null,
           null,
           1,
-          62,
-          62,
-          62,
-          62,
+          61,
+          61,
+          61,
+          61,
           null,
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/poros/tourist_site_spec.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/poros/tourist_sight_spec.rb": {
         "lines": [
           1,
           null,
@@ -459,7 +474,7 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/tourist_site.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/tourist_sight.rb": {
         "lines": [
           1,
           1,
@@ -468,9 +483,9 @@
           null,
           null,
           1,
-          11,
-          11,
-          11,
+          31,
+          31,
+          31,
           null,
           null
         ]
@@ -491,6 +506,17 @@
           1,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null
         ]
@@ -499,12 +525,17 @@
         "lines": [
           1,
           1,
-          2,
+          7,
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
+          null,
+          null,
+          1,
+          4,
+          4,
           null,
           null
         ]
@@ -546,7 +577,7 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/tourist_site_service_spec.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/tourist_sight_service_spec.rb": {
         "lines": [
           1,
           null,
@@ -567,16 +598,16 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/services/tourist_site_service.rb": {
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/services/tourist_sight_service.rb": {
         "lines": [
           1,
           1,
-          2,
+          4,
           null,
           null,
           1,
-          2,
-          2,
+          4,
+          4,
           null,
           null
         ]
@@ -612,8 +643,41 @@
           null,
           3,
           null,
-          41,
+          40,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/controllers/api/v1/tourist_sights_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/serializers/tourist_sight_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          2,
+          null,
+          20,
           null,
           null,
           null,
@@ -629,6 +693,6 @@
         ]
       }
     },
-    "timestamp": 1668446563
+    "timestamp": 1668452187
   }
 }

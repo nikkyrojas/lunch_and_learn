@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe TouristSite do
+RSpec.describe TouristSight do
   describe 'instantiation' do
     let(:data) do
       {properties:
@@ -13,7 +13,7 @@ RSpec.describe TouristSite do
     end
 
     it 'instantiates described class' do
-      site = TouristSite.new(data)
+      site = TouristSight.new(data)
       expect(site).to be_instance_of(described_class)
       expect(site.name).to eq('Beutiful Mountains')
       expect(site.address).to eq('somewhere, co, usa')

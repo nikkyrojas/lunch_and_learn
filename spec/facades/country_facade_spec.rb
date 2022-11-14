@@ -3,13 +3,18 @@ require 'rails_helper'
 RSpec.describe CountryFacade do
   describe '.random_country', :vcr do
     it 'retrieves random country' do
-      # country = CountryFacade.random_country
-      # expect(country[0]).to be_a Recipe
-      # expect(country.count).to eq(20)
-      # expect(country[1].title).to be_a String
-      # expect(country[1].title).to eq("Savory Sesame Cookies")
-      # expect(country[1].image_url).to be_a String
-      # expect(country[1].url).to be_a String
+      country = CountryFacade.random_country
+      expect(country).to be_a(String)
+    end
+  end
+  describe '.search_country(search)', :vcr do
+    it 'retrieves country by search' do
+      country = CountryFacade.search_country('canada')
+      expect(country).to be_a Country
+      expect(country.country_code).to eq("CA")
+      expect(country.name).to eq("Canada")
+      expect(country.lat).to eq(60.0)
+      expect(country.lng).to eq(-95.0)
     end
   end
 end
