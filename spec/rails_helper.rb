@@ -68,11 +68,13 @@ VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
   config.configure_rspec_metadata!
-  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['books_api_key']}
-  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['movies_api_key']}
+  config.filter_sensitive_data('DONT SHOW MY APP ID') { ENV['edamam_app_id']}
+  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['edamam_recipe_key']}
+  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['geo_coding_api_key']}
   config.default_cassette_options = { re_record_interval: 4.day }
   config.allow_http_connections_when_no_cassette = true
 end
+
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
     with.test_framework :rspec

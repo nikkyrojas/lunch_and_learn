@@ -217,6 +217,11 @@
           null
         ]
       },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/facades/country_facade_spec.rb": {
+        "lines": [
+
+        ]
+      },
       "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/facades/recipe_facade_spec.rb": {
         "lines": [
           1,
@@ -241,8 +246,53 @@
           1,
           1,
           4,
-          77,
+          75,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/poros/country_spec.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/country.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          251,
+          251,
+          251,
+          251,
           null,
           null
         ]
@@ -285,10 +335,10 @@
           null,
           null,
           1,
-          78,
-          78,
-          78,
-          78,
+          76,
+          76,
+          76,
+          76,
           null,
           null
         ]
@@ -395,7 +445,7 @@
           null,
           3,
           null,
-          57,
+          55,
           null,
           null,
           null,
@@ -422,19 +472,8 @@
           null,
           null
         ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/country.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          250,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1668312837
+    "timestamp": 1668441151
   }
 }
