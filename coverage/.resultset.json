@@ -218,32 +218,6 @@
           null
         ]
       },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/facades/tourist_site_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/services/tourist_site_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/poros/tourist_site.rb": {
         "lines": [
           1,
@@ -254,14 +228,13 @@
           null,
           1,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1668445592
+    "timestamp": 1668446014
   }
 }
