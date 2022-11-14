@@ -246,7 +246,7 @@
           1,
           1,
           4,
-          75,
+          80,
           null,
           null,
           null
@@ -335,10 +335,10 @@
           null,
           null,
           1,
-          76,
-          76,
-          76,
-          76,
+          81,
+          81,
+          81,
+          81,
           null,
           null
         ]
@@ -414,6 +414,41 @@
           null
         ]
       },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/spec/services/tourist_site_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/services/tourist_site_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/nikkyrojas/turing/repeat_mod3/final_project/lunch_and_learn/app/controllers/api/v1/recipes_controller.rb": {
         "lines": [
           1,
@@ -445,7 +480,7 @@
           null,
           3,
           null,
-          55,
+          60,
           null,
           null,
           null,
@@ -474,6 +509,6 @@
         ]
       }
     },
-    "timestamp": 1668441151
+    "timestamp": 1668444175
   }
 }
