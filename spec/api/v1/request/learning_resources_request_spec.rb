@@ -27,11 +27,26 @@ RSpec.describe 'Youtube API' do
       end 
     end
     context 'edgacase/sad path' do
-      xit 'if no video matchs, return empty array', :vcr do 
-        get '/api/v1/learning_resources?country=owega'
+      it 'if no video matchs, return empty array', :vcr do 
+        get '/api/v1/learning_resources?country=okjdlu6euj'
 
         json_response = JSON.parse(response.body, symbolize_names: true)
-        recipe_data = json_response[:data]
+        response = json_response[:data]
+      end 
+      it 'if country is nil return random', :vcr do 
+        get '/api/v1/learning_resources?'
+
+        json_response = JSON.parse(response.body, symbolize_names: true)
+        learning_resources = json_response[:data]
+        expect(learning_resources).to be_an Hash
+        expect(learning_resources).to be_a Hash
+        expect(learning_resources[:id]).to eq(nil)
+        expect(learning_resources[:type]).to eq("learning_resource")
+        expect(learning_resources[:attributes]).to be_a(Hash)
+        expect(learning_resources[:attributes][:country]).to be_a String
+        expect(learning_resources[:attributes][:video][:title]).to be_a(String)
+        expect(learning_resources[:attributes][:images][0][:url]).to be_a(String)
+        expect(learning_resources[:attributes][:images][0][:alt_tag]).to be_a(String)
       end 
     end
   end

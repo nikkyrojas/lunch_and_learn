@@ -8,5 +8,12 @@ RSpec.describe LearningResourceFacade do
       expect(video.etag).to be_a String
       expect(video.title).to be_a String
     end
+    it 'retrieves an array of videos that match country param' do
+      images = LearningResourceFacade.unsplash_images('Tuvalu')
+      expect(images).to be_an Array
+      expect(images[0]).to be_a Hash
+      expect(images[0][:alt_tag]).to be_a String
+      expect(images[0][:url]).to be_a String
+    end
   end
 end

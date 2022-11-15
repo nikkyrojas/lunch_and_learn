@@ -9,7 +9,7 @@ class Api::V1::SessionsController < ApplicationController
     end
   end
 
-  def destroy
-    session.destroy
-  end
+  # def destroy
+  #   session.destroy
+  # end
 end
