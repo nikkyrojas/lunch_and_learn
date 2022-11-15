@@ -9,13 +9,14 @@ class LearningResourceSerializer
             {
               country: country,
               video: {
-                title: video.last.title,
-                youtube_video_id: video.first.etag
+                title: video.title,
+                youtube_video_id: video.etag
               },
               images: images.map do |image|
                 {
                   alt_tag: image.alt_tag,
-                  url: image.url
+                  url: image.url,
+                  description: image.description
                 }
               end
             }

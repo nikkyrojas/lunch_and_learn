@@ -1,8 +1,7 @@
 class LearningResourceFacade
   def self.youtube_videos(country)
-    LearningResourceService.get_videos(country)[:items].map do |video|
-      YoutubeVideo.new(video)
-    end
+    video = LearningResourceService.get_videos(country)[:items].first
+    YoutubeVideo.new(video)
   end
 
   def self.unsplash_images(country)
