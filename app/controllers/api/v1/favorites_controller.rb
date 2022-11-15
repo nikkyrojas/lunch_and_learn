@@ -21,7 +21,7 @@ class Api::V1::FavoritesController < ApplicationController
   end
 
   def destroy
-    favorite.destroy
+    render json: Favorite.destroy(params[:id]), status: 204
   end
   
   private 

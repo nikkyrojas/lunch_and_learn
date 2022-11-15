@@ -41,8 +41,8 @@ RSpec.describe 'Favorites Api' do
         expect(response).to be_successful
         expect(response.status).to eq(200)
 
-          json_response = JSON.parse(response.body, symbolize_names: true)
-          favorites = json_response[:data]
+        json_response = JSON.parse(response.body, symbolize_names: true)
+        favorites = json_response[:data]
         
         expect(favorites).to be_a Array
         expect(favorites[0][:id]).to be_an Integer
@@ -51,6 +51,14 @@ RSpec.describe 'Favorites Api' do
         expect(favorites[0][:attributes][:recipe_title]).to be_a String
         expect(favorites[0][:attributes][:recipe_link]).to be_a String
         expect(favorites[0][:attributes][:country]).to eq("thailand")
+      end 
+
+      it 'it deletes a favorite' do
+        favorite = Favorite.create!(country: "thailand", recipe_link: "https://www.tastingtable.com", recipe_title:"FOOD!!", user_id: 13)
+        
+        expect{ delete "/api/v1/favorites/#{favorite.id}"}.to change(Favorite, :count).by(-1)
+        expect(response).to be_successful
+        expect(response.status).to eq(204)
       end 
     end
     context 'Edgecase Sad Path', :vcr do
