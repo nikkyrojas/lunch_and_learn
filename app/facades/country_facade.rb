@@ -5,4 +5,8 @@ class CountryFacade
     end
     countries.shuffle[0].name
   end
+
+  def self.search_country(search_param)
+    Country.new(CountryService.get_search_country(search_param).first)
+  end
 end

@@ -71,8 +71,12 @@ VCR.configure do |config|
   config.filter_sensitive_data('DONT SHOW MY APP ID') { ENV['edamam_app_id']}
   config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['edamam_recipe_key']}
   config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['geo_coding_api_key']}
-  config.default_cassette_options = { re_record_interval: 4.day }
+  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['youtube_google_api_key']}
+  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['unsplash_access_key']}
+  config.filter_sensitive_data('DONT SHOW MY API KEY') { ENV['unsplash_secret_key']}
   config.allow_http_connections_when_no_cassette = true
+  config.default_cassette_options = { :record => :new_episodes }
+  # config.default_cassette_options = { re_record_interval: 4.day }
 end
 
 Shoulda::Matchers.configure do |config|
