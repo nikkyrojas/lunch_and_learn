@@ -21,7 +21,7 @@ RSpec.describe 'TouristSights API' do
           expect(site[:id]).to eq(nil)
           expect(site[:type]).to eq('sight')
           expect(site[:attributes]).to be_a(Hash)
-          #it fails for the below lines saying it name is nil
+          #it fails for the below lines saying name is nil
           #but if you delete fixtures
           #and run the test with a pry here name isnt nil
           expect(site[:attributes][:name]).to be_a(String)
