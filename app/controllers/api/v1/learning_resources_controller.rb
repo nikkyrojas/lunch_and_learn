@@ -11,5 +11,6 @@ class Api::V1::LearningResourcesController < ApplicationController
     render json: LearningResourceSerializer.format_resources(video,images,country)
     else
       render json: {data: [] }
+    end
   end
 end
