@@ -39,5 +39,4 @@ RSpec.describe 'sessions ' do
     expect(response.status).to eq(400)
     expect(response.body).to include("One of the following errors have occured: passwords do not match, invalid email, or field is missing")
   end 
-
 end

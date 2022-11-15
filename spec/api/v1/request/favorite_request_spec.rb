@@ -19,7 +19,7 @@ RSpec.describe 'Favorites Api' do
         json_response = JSON.parse(response.body)
         
         new_favorite = Favorite.last
-
+          binding.pry
         expect(json_response).to be_a Hash
         expect(new_favorite.country).to eq("thailand")
         expect(new_favorite.recipe_link).to eq("https://www.tastingtable.com/.....")
@@ -43,7 +43,7 @@ RSpec.describe 'Favorites Api' do
         expect(response.body).to include("param missing or api key invalid")
       end 
 
-      it 'return error if and param is missing', :vcr do 
+      it 'return error if a param is missing', :vcr do 
         favorite_params = ({
                     "country": "thailand",
                     "recipe_link": "https://www.tastingtable.com/.....",
