@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 2022_11_15_171355) do
     t.string "country"
     t.string "recipe_title"
     t.string "recipe_link"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.bigint "user_id"
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
@@ -28,6 +30,8 @@ ActiveRecord::Schema.define(version: 2022_11_15_171355) do
     t.string "email"
     t.string "password_digest"
     t.string "api_key"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "favorites", "users"

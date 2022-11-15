@@ -4,6 +4,8 @@ class CreateFavorites < ActiveRecord::Migration[5.2]
       t.string :country
       t.string :recipe_title
       t.string :recipe_link
+
+      t.timestamps
     end
   end
 end

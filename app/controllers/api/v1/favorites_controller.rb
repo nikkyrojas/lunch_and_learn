@@ -1,4 +1,14 @@
 class Api::V1::FavoritesController < ApplicationController
+  def index
+    if params[:api_key].present?
+    user = User.find_by(api_key: params[:api_key])
+    favorites = user.favorites 
+    render json: FavoriteSerializer.format_favorites(favorites), status:200
+    else
+      render json: { errors: "param missing"}, status: 400
+    end
+  end
+
   def create
     if user = User.find_by(api_key: params[:api_key])
       new_favorite = Favorite.new(favorite_params)
