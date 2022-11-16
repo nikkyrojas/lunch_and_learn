@@ -61,7 +61,7 @@ get "/api/v1/tourist_sights?country=#{country}"
 ![Screen Shot 2022-11-16 at 8 25 00 AM](https://user-images.githubusercontent.com/103013480/202221693-218cfee3-73c4-4366-9e0e-6ce3d33fe01f.png)
 
 
-### Create favorite 
+### Post favorite 
 post "/api/v1/favorites"
 
 ![Screen Shot 2022-11-16 at 8 18 24 AM](https://user-images.githubusercontent.com/103013480/202220223-f0c375cd-17f2-4e63-9173-a90169f329c1.png)
