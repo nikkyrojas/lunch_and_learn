@@ -24,7 +24,7 @@
 
 ## Schema: 
 
-![Screen Shot 2022-09-22 at 1 12 18 PM](https://user-images.githubusercontent.com/90064385/191810476-7ded9548-90ea-40f3-9bcd-3ccdb3979a92.png)
+![Screen Shot 2022-11-16 at 8 00 12 AM](https://user-images.githubusercontent.com/103013480/202215836-5a6a32ee-5c9e-4092-8fc6-968bef37a309.png)
 
 ## Setup
 
