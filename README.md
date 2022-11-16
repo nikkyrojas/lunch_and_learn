@@ -45,7 +45,7 @@
 -   [Capybara](https://github.com/teamcapybara/capybara)
 -   [SimpleCov](https://github.com/simplecov-ruby/simplecov)
 
-## API
+## API Keys
 [Edamam Recipe API](https://developer.edamam.com/edamam-recipe-api),  [YouTube API](https://developers.google.com/youtube/v3/getting-started), and [Unsplash](https://unsplash.com/documentation#search-photos). 
 
 ## Endpoints
