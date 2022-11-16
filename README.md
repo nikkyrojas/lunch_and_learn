@@ -37,6 +37,7 @@
 - `rails db:create`
 - `rails db:migrate`
 - Install Figaro with `bundle exec figaro install` to create an `application.yml` file locally (this to be updated with any needed ENV variables!!!)
+- Need to sign up these 3 [API](#api) keys and insert the appropriate keys in your `application.yml` file.
 
 ## Gems
 
@@ -44,6 +45,9 @@
 -   [ShouldaMatchers](https://github.com/thoughtbot/shoulda-matchers)
 -   [Capybara](https://github.com/teamcapybara/capybara)
 -   [SimpleCov](https://github.com/simplecov-ruby/simplecov)
+
+## API
+[Edamam Recipe API](https://developer.edamam.com/edamam-recipe-api),  [YouTube API](https://developers.google.com/youtube/v3/getting-started), and [Unsplash](https://unsplash.com/documentation#search-photos). 
 
 ## Endpoints
 
