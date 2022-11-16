@@ -50,10 +50,16 @@
 
 ## Endpoints
 
-### Get recipes
+### Get recipes (no country param/randomly selected)
 get '/api/v1/recipes'
 
 ![Screen Shot 2022-11-16 at 8 21 28 AM](https://user-images.githubusercontent.com/103013480/202220941-3be9d2d7-97e9-4c83-acbc-417224c28736.png)
+
+### Get recipes (with country param given)
+get "/api/v1/recipes?country=#{country}"
+
+![Screen Shot 2022-11-16 at 8 42 42 AM](https://user-images.githubusercontent.com/103013480/202226262-f542d1af-b006-4c4a-bb58-8d317567360d.png)
+
 
 ### Get Tourist Sights
 get "/api/v1/tourist_sights?country=#{country}"
@@ -73,8 +79,9 @@ get "/api/v1/favorites?api_key=#{api_key}"
 
 ### Delete favorite
 delete "/api/v1/favorite/:id"
+note: the 204 status show states that their is no content because it was deleted
 
-![Screen Shot 2022-09-22 at 1 57 10 PM](https://user-images.githubusercontent.com/90064385/191818218-2b4b542d-8b18-4745-9a20-d2c655208d04.png)
+![Screen Shot 2022-11-16 at 8 40 19 AM](https://user-images.githubusercontent.com/103013480/202225725-07603d4f-eee3-4b6d-8153-b4bc54033452.png)
 
 
 ## Contributors
