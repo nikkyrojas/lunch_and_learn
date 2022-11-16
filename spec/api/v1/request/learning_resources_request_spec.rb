@@ -34,7 +34,7 @@ RSpec.describe 'Youtube API' do
       #   response = json_response[:data]
       # end 
       it 'if country is nil return random', :vcr do 
-        get '/api/v1/learning_resources'
+        get '/api/v1/learning_resources?'
 
         json_response = JSON.parse(response.body, symbolize_names: true)
         learning_resources = json_response[:data]
