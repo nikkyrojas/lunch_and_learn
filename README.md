@@ -92,13 +92,11 @@ note: the 204 status show states that their is no content because it was deleted
 ![Screen Shot 2022-11-16 at 8 40 19 AM](https://user-images.githubusercontent.com/103013480/202225725-07603d4f-eee3-4b6d-8153-b4bc54033452.png)
 
 ## Wireframes
-![Screen Shot 2022-11-16 at 8 55 53 AM](https://user-images.githubusercontent.com/103013480/202230030-d7e198ef-c6a3-464b-afc3-1343e7337ad8.png)
-![Screen Shot 2022-11-16 at 8 56 34 AM](https://user-images.githubusercontent.com/103013480/202230041-5898f511-![Screen Shot 2022-11-16 at 8 56 51 AM](https://user-images.githubusercontent.com/103013480/202230060-a2ea1eeb-218c-480a-bdd9-a914a189a04d.png)
-a433-41a8-91be-59feda2b547c.png)
-![Screen Shot 2022-11-16 at 8 57 19 AM](https://user-images.githubusercontent.com/103013480/202230067-550fea02-cecf-44e8-b730-d6a13ab5ce6d.png)
 
-
-
+![Screen Shot 2022-11-16 at 8 55 53 AM](https://user-images.githubusercontent.com/103013480/202230197-d0743a5f-6d3d-465b-9744-00e3dbb56636.png)
+![Screen Shot 2022-11-16 at 8 56 34 AM](https://user-images.githubusercontent.com/103013480/202230212-59373758-59d2-4fcc-92f5-b606dde2d415.png)
+![Screen Shot 2022-11-16 at 8 56 51 AM](https://user-images.githubusercontent.com/103013480/202230230-addaba42-89a8-4475-a77a-07472b382116.png)
+![Screen Shot 2022-11-16 at 8 57 19 AM](https://user-images.githubusercontent.com/103013480/202230246-e88e6c41-15a9-49b2-aaf7-574010a6a339.png)
 
 ## Contributors
 -   **Nikky Rojas** - _Turing Student_ - [GitHub Profile](https://github.com/nikkyrojas) - [LinkedIn](https://www.linkedin.com/in/nikkyrojas/)
