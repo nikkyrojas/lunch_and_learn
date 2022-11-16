@@ -50,6 +50,11 @@
 
 ## Endpoints
 
+### Post user 
+post '/api/v1/users'
+
+![Screen Shot 2022-11-16 at 8 46 16 AM](https://user-images.githubusercontent.com/103013480/202227021-2df55fe9-b77a-40de-a074-e242a25d77b4.png)
+
 ### Get recipes (no country param/randomly selected)
 get '/api/v1/recipes'
 
