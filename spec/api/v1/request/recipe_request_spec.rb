@@ -51,15 +51,15 @@ RSpec.describe 'Recipe API' do
         expect(recipe_data).to be_an Array
         expect(recipe_data).to eq([])
       end 
-      xit 'recieves a recipe when there is space in the name', :vcr do 
-        country = 'united kingdom'
-        get "/api/v1/recipes?country=#{country}"
-        json_response = JSON.parse(response.body, symbolize_names: true)
-        recipe_data = json_response[:data]
+      # xit 'recieves a recipe when there is space in the name', :vcr do 
+      #   country = 'united kingdom'
+      #   get "/api/v1/recipes?country=#{country}"
+      #   json_response = JSON.parse(response.body, symbolize_names: true)
+      #   recipe_data = json_response[:data]
 
-        expect(recipe_data).to be_an Array
-        expect(recipe_data).to eq([])
-      end 
+      #   expect(recipe_data).to be_an Array
+      #   expect(recipe_data).to eq([])
+      # end 
     end
   end
 end

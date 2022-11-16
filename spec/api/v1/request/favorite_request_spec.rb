@@ -50,7 +50,7 @@ RSpec.describe 'Favorites Api' do
         expect(favorites[0][:attributes]).to be_a Hash
         expect(favorites[0][:attributes][:recipe_title]).to be_a String
         expect(favorites[0][:attributes][:recipe_link]).to be_a String
-        expect(favorites[0][:attributes][:country]).to eq("thailand")
+        expect(favorites[0][:attributes][:country]).to be_a String
       end 
 
       it 'it deletes a favorite' do

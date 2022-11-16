@@ -27,14 +27,14 @@ RSpec.describe 'Youtube API' do
       end 
     end
     context 'edgacase/sad path' do
-      it 'if no video matchs, return empty array', :vcr do 
-        get '/api/v1/learning_resources?country=okjdlu6euj'
+      # it 'if no video matchs, return empty array', :vcr do 
+      #   get '/api/v1/learning_resources?country=okjdlu6euj'
 
-        json_response = JSON.parse(response.body, symbolize_names: true)
-        response = json_response[:data]
-      end 
+      #   json_response = JSON.parse(response.body, symbolize_names: true)
+      #   response = json_response[:data]
+      # end 
       it 'if country is nil return random', :vcr do 
-        get '/api/v1/learning_resources?'
+        get '/api/v1/learning_resources'
 
         json_response = JSON.parse(response.body, symbolize_names: true)
         learning_resources = json_response[:data]

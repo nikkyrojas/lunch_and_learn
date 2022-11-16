@@ -4,7 +4,7 @@ class YoutubeVideo
               :description
 
   def initialize(data)
-    @etag = data[:etag]
+    @etag = data[:etag] || "no tag"
     @title = data[:snippet][:title]
     @description =  data[:snippet][:description]
   end

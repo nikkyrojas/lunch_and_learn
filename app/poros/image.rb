@@ -4,7 +4,7 @@ class Image
               :description
 
   def initialize(data)
-    @alt_tag = data[:alt_description]
+    @alt_tag = data[:alt_description] || "no_tag"
     @url = data[:urls][:regular]
     @description = data[:description]
   end

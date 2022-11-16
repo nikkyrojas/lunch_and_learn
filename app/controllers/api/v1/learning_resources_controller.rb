@@ -6,7 +6,7 @@ class Api::V1::LearningResourcesController < ApplicationController
       render json: LearningResourceSerializer.format_resources(video,images,params[:country])
     elsif params[:country] == nil
     country = CountryFacade.random_country
-    video = LearningResourceFacade.youtube_videos(country).first
+    video = LearningResourceFacade.youtube_videos(country)
     images = LearningResourceFacade.unsplash_images(country)
     render json: LearningResourceSerializer.format_resources(video,images,country)
     else
