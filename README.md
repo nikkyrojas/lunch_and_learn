@@ -11,7 +11,7 @@
 ## Welcome to the Back-end repo for Lunch and Learn!
 
 
-[Lunch and Learn](https://github.com/nikkyrojas/lunch_and_learn) Back-end app was constructed to provide the necessary endpoints and data to the front-end given via their wireframe so that they can construct an app that allows a user to, sign up, search for cuisines by country, and provide opportunities to learn more about that country's culture. This backend app consumes multiple APIs to be packaged and exposed to the frontend;  REST Countries API,  Edamam Recipe API,  YouTube API, and Unsplash. 
+[Lunch and Learn](https://github.com/nikkyrojas/lunch_and_learn) Back-end app was constructed to provide the necessary endpoints and data to the front-end based on a given wireframe. The app is deisgned to allow a user to, sign up, search for cuisines by country, and provide opportunities to learn more about that country's culture. This backend app consumes multiple APIs to be packaged and exposed to the frontend;  REST Countries API,  Edamam Recipe API,  YouTube API, and Unsplash. 
 
 ## Table of contents
 
