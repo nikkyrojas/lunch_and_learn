@@ -56,9 +56,10 @@ get '/api/v1/recipes'
 ![Screen Shot 2022-11-16 at 8 21 28 AM](https://user-images.githubusercontent.com/103013480/202220941-3be9d2d7-97e9-4c83-acbc-417224c28736.png)
 
 ### Get Tourist Sights
-get "/api/v1/tourist_sights"
+get "/api/v1/tourist_sights?country=#{country}"
 
-![Screen Shot 2022-09-22 at 1 38 59 PM](https://user-images.githubusercontent.com/90064385/191814879-7caf7dd0-e2ab-4e43-bd1c-012e8fce0bb7.png)
+![Screen Shot 2022-11-16 at 8 25 00 AM](https://user-images.githubusercontent.com/103013480/202221693-218cfee3-73c4-4366-9e0e-6ce3d33fe01f.png)
+
 
 ### Create favorite 
 post "/api/v1/favorites"
