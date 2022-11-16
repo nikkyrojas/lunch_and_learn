@@ -18,7 +18,9 @@
 - [Schema](#schema)
 - [Setup](#setup)
 - [Gems](#gems)
+- [API Keys](#api)
 - [Endpoints](#endpoints)
+- [Front-End Wireframes](#wireframes)
 - [Contributors](#contributors)
 
 ## Schema: 
@@ -89,6 +91,7 @@ note: the 204 status show states that their is no content because it was deleted
 
 ![Screen Shot 2022-11-16 at 8 40 19 AM](https://user-images.githubusercontent.com/103013480/202225725-07603d4f-eee3-4b6d-8153-b4bc54033452.png)
 
+## Wireframes
 
 ## Contributors
 -   **Nikky Rojas** - _Turing Student_ - [GitHub Profile](https://github.com/nikkyrojas) - [LinkedIn](https://www.linkedin.com/in/nikkyrojas/)
