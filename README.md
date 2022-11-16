@@ -39,13 +39,13 @@
 - `rails db:migrate`
 - Install Figaro with `bundle exec figaro install` to create an `application.yml` file locally (this to be updated with any needed ENV variables!!!)
 - Need to sign up these 3 [API](#api) keys and insert the appropriate keys in your `application.yml` file.
-
 ## Gems
 
 -   [RSpec](https://github.com/rspec/rspec-rails)
 -   [ShouldaMatchers](https://github.com/thoughtbot/shoulda-matchers)
 -   [Capybara](https://github.com/teamcapybara/capybara)
 -   [SimpleCov](https://github.com/simplecov-ruby/simplecov)
+-   [Faraday](https://lostisland.github.io/faraday)
 
 ## API 
 
