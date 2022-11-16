@@ -53,17 +53,22 @@
 ### Get recipes
 get '/api/v1/recipes'
 
-![Screen Shot 2022-09-22 at 1 33 24 PM](https://user-images.githubusercontent.com/90064385/191813809-2575599a-d345-4f7d-94e1-b0d625cd856a.png)
+![Screen Shot 2022-11-16 at 8 21 28 AM](https://user-images.githubusercontent.com/103013480/202220941-3be9d2d7-97e9-4c83-acbc-417224c28736.png)
 
 ### Get Tourist Sights
 get "/api/v1/tourist_sights"
 
 ![Screen Shot 2022-09-22 at 1 38 59 PM](https://user-images.githubusercontent.com/90064385/191814879-7caf7dd0-e2ab-4e43-bd1c-012e8fce0bb7.png)
 
-### Get favorites
-get "/api/v1/favorites"
+### Create favorite 
+post "/api/v1/favorites"
 
-![Screen Shot 2022-09-22 at 1 41 58 PM](https://user-images.githubusercontent.com/90064385/191815428-64d7de1c-7d04-445b-8dd2-9d58886f0cb0.png)
+![Screen Shot 2022-11-16 at 8 18 24 AM](https://user-images.githubusercontent.com/103013480/202220223-f0c375cd-17f2-4e63-9173-a90169f329c1.png)
+
+### Get favorites
+get "/api/v1/favorites?api_key=#{api_key}"
+
+![Screen Shot 2022-11-16 at 8 15 55 AM](https://user-images.githubusercontent.com/103013480/202219655-90ab6c6e-9546-43cf-8df8-57144ddb3886.png)
 
 ### Delete favorite
 delete "/api/v1/favorite/:id"
