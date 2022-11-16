@@ -55,23 +55,18 @@ get '/api/v1/recipes'
 
 ![Screen Shot 2022-09-22 at 1 33 24 PM](https://user-images.githubusercontent.com/90064385/191813809-2575599a-d345-4f7d-94e1-b0d625cd856a.png)
 
-### Tourist Sights
-get "/api/v1/blogs/:blog_id"
+### Get Tourist Sights
+get "/api/v1/tourist_sights"
 
 ![Screen Shot 2022-09-22 at 1 38 59 PM](https://user-images.githubusercontent.com/90064385/191814879-7caf7dd0-e2ab-4e43-bd1c-012e8fce0bb7.png)
 
 ### Get favorites
-get "/api/v1/blogs/:blog_id/comments"
+get "/api/v1/favorites"
 
 ![Screen Shot 2022-09-22 at 1 41 58 PM](https://user-images.githubusercontent.com/90064385/191815428-64d7de1c-7d04-445b-8dd2-9d58886f0cb0.png)
 
-## Update a blog 
-patch "/api/v1/blogs/:blog_id"
-
-![Screen Shot 2022-09-22 at 1 53 06 PM](https://user-images.githubusercontent.com/90064385/191817492-bc545f39-eade-4df0-8309-ee083a2a906a.png)
-
-## Delete favorite
-delete "/api/v1/blogs/:blog_id"
+### Delete favorite
+delete "/api/v1/favorite/:id"
 
 ![Screen Shot 2022-09-22 at 1 57 10 PM](https://user-images.githubusercontent.com/90064385/191818218-2b4b542d-8b18-4745-9a20-d2c655208d04.png)
 
