@@ -38,7 +38,7 @@
 - `rails db:create`
 - `rails db:migrate`
 - Install Figaro with `bundle exec figaro install` to create an `application.yml` file locally (this to be updated with any needed ENV variables!!!)
-- Need to sign up these 3 [API](#api) keys and insert the appropriate keys in your `application.yml` file.
+- Need to sign up for these 3 [API](#api) keys and insert the appropriate keys in your `application.yml` file you created on the previous step.
 ## Gems
 
 -   [RSpec](https://github.com/rspec/rspec-rails)
